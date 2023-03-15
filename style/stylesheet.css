@@ -20,6 +20,7 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
 }
 
 .menu-item ul{
@@ -117,7 +118,7 @@ header{
 
 .lesson-wrapper{
     display: flex;
-    padding:0 40px;
+    margin:0 40px;
 }
 
 .card-wrapper{
@@ -154,4 +155,37 @@ header{
 
 footer{
     padding:28px 20px
+}
+
+/* tablet */
+@media all and (max-width: 1126px) {
+    .lesson-wrapper{
+        flex-wrap: wrap;
+    }
+    .main h4{
+        text-align: center;
+    }
+    .lesson-title{
+        top: 85px;
+        left: 380px;
+    }
+  }
+
+/* smartphone */
+@media all and (max-width: 500px) {
+    .main h1{
+       font-size: 26px;
+       padding:4px;
+    }
+    .main h4{
+        font-size: 15px;
+    }
+    .facebook{
+        margin-bottom: 10px;
+    }
+    .lesson-title{
+        top: 85px;
+        left: 155px;
+    }
+
 }
