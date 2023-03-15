@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: "Lucida Grande";
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+  }
+
+header{
+    background-color: rgba(34, 49, 52, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 24px 40px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu-item ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 200px;
+}
+
+
+.main{
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-size: cover;
+    color: #fff;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main h4{
+    margin-bottom: 10px;
+}
+
+.button-information{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-information p{
+    margin-bottom: 10px;
+}
+
+/* button */
+.btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.button-media{
+    display: flex;
+    margin-top: 10px;
+}
+
+.signup {
+    background-color: #239b76;
+  }
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    width: 200px;
+  }
+
+/* end of button  */
+
+
+.lesson{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:40px 0;
+}
+
+.lesson-wrapper{
+    display: flex;
+    padding:0 40px;
+}
+
+.card-wrapper{
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.lesson-image{
+    position: relative;
+}
+
+.lesson-title{
+    position: absolute;
+    top: 90px;
+    left: 166px;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* information */
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:80px 0;
+    background-color: #fafafa;
+}
+
+.infromation-heading{
+    text-align: center;
+    margin-bottom: 60px
+}
+
+footer{
+    padding:28px 20px
+}
